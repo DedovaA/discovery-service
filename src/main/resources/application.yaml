@@ -1,3 +1,7 @@
-spring:
-  application:
-    name: demo
+server:
+  port: 8761 # Стандартный порт для Eureka
+
+eureka:
+  client:
+    register-with-eureka: false # Не регистрировать сервер как клиента
+    fetch-registry: false       # Не скачивать реестр (он и есть реестр)
