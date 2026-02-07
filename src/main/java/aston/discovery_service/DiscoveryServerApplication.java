@@ -1,4 +1,4 @@
-package discovery_server;
+package aston.discovery_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

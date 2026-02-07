@@ -10,12 +10,9 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>discovery-server</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>aston</groupId>
+	<artifactId>discovery-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>25</java.version>
@@ -35,7 +32,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
